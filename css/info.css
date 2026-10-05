@@ -1,0 +1,176 @@
+<<<<<<< HEAD
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-pet {
+    margin: 20px;
+}
+
+.info-pet img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+@media (min-width:-480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width:480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-pet {
+        width: auto;
+    }
+}
+
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-pet {
+    margin: 20px;
+}
+
+/* AQUÍ ESTÁ EL CAMBIO: Reemplazamos "img" por "video" */
+.info-pet video {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    object-fit: cover; /* Clave para que el video cuadrado o rectangular se adapte al círculo */
+    display: block;    /* Evita espacios raros debajo del video */
+}
+
+/* Mantenemos tus media queries tal cual las tienes */
+@media (min-width:-480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width:480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-pet {
+        width: auto;
+    }
+=======
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-pet {
+    margin: 20px;
+}
+
+.info-pet img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+@media (min-width:-480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width:480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-pet {
+        width: auto;
+    }
+}
+
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-pet {
+    margin: 20px;
+}
+
+/* AQUÍ ESTÁ EL CAMBIO: Reemplazamos "img" por "video" */
+.info-pet video {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    object-fit: cover; /* Clave para que el video cuadrado o rectangular se adapte al círculo */
+    display: block;    /* Evita espacios raros debajo del video */
+}
+
+/* Mantenemos tus media queries tal cual las tienes */
+@media (min-width:-480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width:480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-pet {
+        width: auto;
+    }
+>>>>>>> ba296cad21d76dcfe610fdab5a8a800e273d71ca
+}
